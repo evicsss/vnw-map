@@ -78,5 +78,50 @@
         }
       }
     }
+
+  @media (max-width: 768px) {
+    .card {
+      max-width: 100%; 
+      margin: 1rem; 
+    }
+  
+    .card .image {
+      height: 10rem;
+    }
+  
+    .card .title {
+      font-size: 1.1rem; 
+    }
+  
+    .card .details .description {
+      font-size: 0.8rem; 
+    }
+  
+    .card .details .adoptButton {
+      padding: 0.4rem 0.8rem; 
+    }
   }
   
+  @media (max-width: 480px) {
+    .card {
+      margin: 1rem 0.5rem; 
+    }
+  
+    .card .image {
+      height: 8rem;
+    }
+  
+    .card .title {
+      font-size: 1rem; 
+    }
+  
+    .card .details .description {
+      font-size: 0.7rem; 
+    }
+  
+    .card .details .adoptButton {
+      font-size: 0.9rem; 
+      padding: 0.3rem 0.6rem;
+    }
+  }
+}
